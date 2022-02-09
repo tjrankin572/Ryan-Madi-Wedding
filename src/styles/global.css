@@ -41,7 +41,7 @@
 .nav-mobile{
 
   
-  color: white;
+ 
   width: 100%;
   height: 100vh;
   display: none;
@@ -140,11 +140,28 @@ html {
  
 }
 
-.hero-image{
+.hero-main{
     display: flex;
     background-attachment: fixed;
     flex-direction: column;
-    background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/Hero_Image.jpg');
+    background:#d4d8d9;
+    color: black !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15vh;
+    z-index: 1;
+    padding: 50px;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: space-around;
+  }
+
+.hero-location-time{
+    display: flex;
+    background-attachment: fixed;
+    flex-direction: column;
+    background: #044c26;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -154,29 +171,13 @@ html {
     text-align: center;
     justify-content: flex-start;
     align-items: space-around;
-  }
-
-.hero-image-two{
-    display: flex;
-    background-attachment: fixed;
-    flex-direction: column;
-    background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/women-1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 50vh;
-    z-index: 1;
-    padding: 50px;
-    text-align: center;
-    justify-content: flex-start;
-    align-items: space-around;
 }
 
-.hero-image-three{
+.hero-rsvp-registry{
   display: flex;
   background-attachment: fixed;
   flex-direction: column;
-  background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/SDH_8427.jpg');
+  background: #c7bbc3;
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
@@ -224,14 +225,14 @@ html {
     font-size: 1em;
   
     text-decoration: none;
-    color:#e8eaed;
+  
     text-align: center;
     
 }
 
 .nav-link{
     text-decoration: none;
-    color:#e8eaed !important;
+   
 }
 
 .nav-link:hover{
@@ -628,14 +629,13 @@ html {
       font-size: 1em;
     
       text-decoration: none;
-      color:#e8eaed;
+     
       text-align: center;
       
   }
   
   .nav-link{
       text-decoration: none;
-      color:#e8eaed !important;
   }
   
   .flex-1{
