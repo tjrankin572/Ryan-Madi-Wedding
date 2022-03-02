@@ -9,6 +9,7 @@ const Footer = () => (
 
     <p>Thanks for stopping by!</p>
     <p>We're looking forward to seeing you!</p>
+    <Link to="#home" className="back-to-top">Back to Top</Link>
 
 
   </footer>

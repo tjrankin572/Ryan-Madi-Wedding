@@ -7,26 +7,32 @@ nav{
     justify-content: space-evenly;
 
     text-decoration: none;
-    color:rgb(32, 34, 36);
+    color: black !important;
     
 }
 
 nav > a{
-    color:rgb(32, 34, 36);
+    color: black !important;
     text-decoration: none;
 }
 
 a:hover{
-    color: gray;
+    color: gray !important;
 }
 
 footer{
     background-color: linear-gradient( rgb(243,227,238), rgb(254,238,249));
-    color: rgb(32, 34, 36);
     height: 40vh;
     text-align: center;
+    font-size: large;
    
 }
+
+a{
+    color: black;
+    text-decoration: none; 
+}
+
 
 .title{
     color: rgb(32, 34, 36);

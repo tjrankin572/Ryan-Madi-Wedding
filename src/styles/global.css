@@ -351,14 +351,33 @@ html {
   align-items: center;
 }
 
+.white-wrapper{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: rgba(29,93,58, 0.507);
+  text-align: center;
+  color:white;
+  border-radius: 10px;
+  width: 50vh;
+  height: 50vh;
+  justify-content: center;
+  
+}
+
 .wrapper{
   padding: 20px;
   background-color: rgba(4,76,38, 0.507);
   text-align: center;
   color:white;
   border-radius: 10px;
-  width: 50vh;
-  height: 90vh;
+  width: 60vh;
+  height: 70vh;
+}
+
+.back-to-top{
+  color: black I !important;
+  text-decoration: none;
 }
 
 /* Section Styles */

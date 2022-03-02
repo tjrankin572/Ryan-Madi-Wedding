@@ -13,7 +13,7 @@ const Hero = ({heroText, heroCitation, heroBig, heroImage}) => (
  
     
       <div className="mobile-container">
-                <Link to="/" className="logo">Missions For More</Link>
+                <Link to="/" className="logo">Ryan & Madi</Link>
                 <label for="toggle" class="hamburger"><FontAwesomeIcon icon={faBars}  size="2x"></FontAwesomeIcon></label>
 
                 <input type="checkbox" id="toggle" value="checked"></input>
@@ -21,9 +21,10 @@ const Hero = ({heroText, heroCitation, heroBig, heroImage}) => (
                     <br></br>
                     <nav>
                         <ul>
-                            <Link to="/" >Home</Link>
-                            <Link to="/location-time" >Location/Time</Link>
-                            <Link to="/rsvp-registry">RSVP/Registry</Link>
+                            <Link to="/location-time" className="nav-link">Our Story</Link>
+                            <Link to="/location-time" className="nav-link">When and Where</Link>
+                            <Link to="/rsvp-registry" className="nav-link">RSVP</Link>
+                            <Link to="/rsvp-registry" className="nav-link">Registry</Link>
                         </ul>
                     </nav>
                 </div>
@@ -39,16 +40,16 @@ const Hero = ({heroText, heroCitation, heroBig, heroImage}) => (
 
             <nav className="hero_nav flex-1"> 
                 <div>
-                    <Link to="/location-time" className="nav-link">Our Story</Link>
+                    <Link to="#our-story" className="nav-link">Our Story</Link>
                 </div>          
                 <div>
-                    <Link to="/location-time" className="nav-link">When And Where</Link>
+                    <Link to="#when-and-where" className="nav-link">When And Where</Link>
                 </div>
                 <div>
-                    <Link to="/rsvp-registry" className="nav-link">RSVP</Link>
+                    <Link to="#rsvp" className="nav-link">RSVP</Link>
                 </div>
                 <div>
-                    <Link to="/rsvp-registry" className="nav-link">Registry</Link>
+                    <Link to="#registry" className="nav-link">Registry</Link>
                 </div>
             </nav>
 
