@@ -5,14 +5,12 @@ import "../styles/footer.module.css"
 const Footer = () => (
   <footer>
     <br></br>
-    <nav>
-          
-          
+    
 
-    </nav>
+    <p>Thanks for stopping by!</p>
+    <p>We're looking forward to seeing you!</p>
 
-    <p>"...But as for me and my household, we will serve the Lord."</p>
-    <p>Joshua 24:15</p>
+
   </footer>
 )
 /*

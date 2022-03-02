@@ -33,16 +33,22 @@ const Hero = ({heroText, heroCitation, heroBig, heroImage}) => (
 
        
         <div className={heroImage}>
-            <nav className="hero_nav flex-1">
-                <div>
-                    <Link to="/" className="nav-link">Home</Link>
+                <div className="logo">
+                    <Link to="/" className="nav-link">Ryan & Madi</Link>
                 </div>
-            
+
+            <nav className="hero_nav flex-1"> 
                 <div>
-                    <Link to="/location-time" className="nav-link">Location/Time</Link>
+                    <Link to="/location-time" className="nav-link">Our Story</Link>
+                </div>          
+                <div>
+                    <Link to="/location-time" className="nav-link">When And Where</Link>
                 </div>
                 <div>
-                    <Link to="/rsvp-registry" className="nav-link">RSVP/Registry</Link>
+                    <Link to="/rsvp-registry" className="nav-link">RSVP</Link>
+                </div>
+                <div>
+                    <Link to="/rsvp-registry" className="nav-link">Registry</Link>
                 </div>
             </nav>
 

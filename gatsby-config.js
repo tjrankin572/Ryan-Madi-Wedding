@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Missions For More`,
+    title: `Wedding`,
     description: ``,
     author: `Tyler Rankin`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,

@@ -16,9 +16,18 @@
 }
 
 .logo{
+
+  text-align: center;
+  flex-direction: row;
+
+  justify-content: centered;
+
   font-size: 35px;
+
+  
   text-decoration: none;
   color: white;
+
 }
 
 
@@ -140,28 +149,14 @@ html {
  
 }
 
-.hero-main{
-    display: flex;
-    background-attachment: fixed;
-    flex-direction: column;
-    background:#d4d8d9;
-    color: black !important;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 15vh;
-    z-index: 1;
-    padding: 50px;
-    text-align: center;
-    justify-content: flex-start;
-    align-items: space-around;
-  }
+
+
 
 .hero-location-time{
     display: flex;
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/sneak_attack.jpg');
     background-attachment: fixed;
     flex-direction: column;
-    background: #044c26;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -173,27 +168,6 @@ html {
     align-items: space-around;
 }
 
-.hero-rsvp-registry{
-  display: flex;
-  background-attachment: fixed;
-  flex-direction: column;
-  background: #c7bbc3;
-  background-size: cover;
-  background-position: left;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
-  z-index: 1;
-  padding: 50px;
-  text-align: center;
-  justify-content: flex-start;
-  align-items: space-around;
-}
-
-.hero-big-text{
-    font-size: 1.5em;
-    color: white;
-}
 
 .hero_text{
     font-size: 1.1em;
@@ -209,18 +183,12 @@ html {
   display: none;
 }
 
-.qr-code{
-  width: 15%;
-  height: 15%;
-  visibility: hidden;
-  display: none;
-}
 
 .hero_nav{
     display: none;
     flex-direction: row;
 
-    justify-content: space-between;
+    justify-content: centered;
     height: 25px;
     font-size: 1em;
   
@@ -231,6 +199,7 @@ html {
 }
 
 .nav-link{
+    color:#e8eaed !important;
     text-decoration: none;
    
 }
@@ -347,13 +316,6 @@ html {
   
 }
 
-.bio-full-image{
-  height: 150vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .mission-image{
   height: 200vh;
@@ -363,51 +325,8 @@ html {
   align-items: center;
 }
 
-.verse-image{
-  height: 50vh;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.mission-flex-verse{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 50px;
-}
 
-.mission-verse{
-  color:white;
-  font-style: italic;
-  font-weight: bold;
-  font-size: 1em;
- 
-}
-
-.mission-verse-reference{
-  color:white;
-  font-weight: bolder;
-  font-size: 1em;
-}
-
-.give-bold{
-  font-weight: bolder;
-  font-size: 1em;
-}
-
-.bottom-margin-b-20x{
-  margin-bottom: 20px;
-}
-
-.family_img{
-  border-radius: 5px;
-  height: 55vh;
-}
- 
 .image-object-fill{
 
   height: 100%;
@@ -419,10 +338,6 @@ html {
   width:  50%;
 }
 
-.img-DFM-logo{
- 
-  width: 95%;
-}
 .gatsbyMainContainer{
     min-height: 100vh;
     display: flex;
@@ -430,66 +345,59 @@ html {
 
 }
 
-
-.mission-goal{
+.section-alignment{
   display: flex;
-  width: 60vh;
-  height: 95%;
-  flex-direction: column;
-  object-fit: contain;
-  flex: 0 0 75%;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  color:white;
-  font-size: 0.8em;
-  text-align:center;
 }
 
-.mission-goal-wrapper{
+.wrapper{
   padding: 20px;
-  background-color: rgba(209, 94, 40, 0.507);
+  background-color: rgba(4,76,38, 0.507);
+  text-align: center;
+  color:white;
   border-radius: 10px;
+  width: 50vh;
+  height: 90vh;
 }
 
-/* Images Hack */
+/* Section Styles */
 
 
-.family_train{
-  background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/Family_Union_Pacific.jpg');
-}
-
-.kids{
-  background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/Cassie_Gideon.jpg');
-}
-
-.img_0276{
-  background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/unadjustednonraw_thumb_1ce5.jpg');
-  background-size: 100% 100vh;
-  background-position: top;
-  background-repeat: no-repeat;
-}
-
-
-
-.img_0785{
-  background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/IMG_0785.jpg');
+.our-story{
+  background: linear-gradient(rgba(153, 163, 162, 0.50),rgba(153,163,162, 0.30)), url('../images/simp.jpg');
+  height: 100vh;
   background-size: cover;
-  background-position: bottom;
-  background-attachment: fixed;
 }
 
-.img_1082{
-  background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/IMG_1082.jpg');
+.when-and-where{
+  background: linear-gradient(rgba(153, 163, 162, 0.50),rgba(29,93,59, 0.30));
+  height: 100vh;
   background-size: cover;
-  background-position: bottom;
-  background-attachment: fixed;
+
 }
 
-.img_2576{
-  background-color: black;
-  background-size: 100% 100vh;
+.rsvp{
+  background: linear-gradient(rgba(153, 163, 162, 0.50),rgba(153,163,162, 0.30)), url('../images/modified_fence.png');
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
   background-position: top;
-  background-repeat: no-repeat;
+}
+
+.registry{
+  background: linear-gradient(rgba(153, 163, 162, 0.50),rgba(153,163,162, 0.30));
+  height: 100vh;
+  
+  background-size: cover;
+}
+
+.verse-section{
+  background: linear-gradient(rgba(153, 163, 162, 0.50),rgba(153,163,162, 0.30)), url('../images/coffee.jpg');
+  height: 150vh;
+  background-size: cover;
+ 
+  background-position: center;
 }
 
 .SDH_8427{
@@ -635,6 +543,7 @@ html {
   }
   
   .nav-link{
+      color: white;
       text-decoration: none;
   }
   

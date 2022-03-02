@@ -7,12 +7,12 @@ nav{
     justify-content: space-evenly;
 
     text-decoration: none;
-    color:#e8eaed;
+    color:rgb(32, 34, 36);
     
 }
 
 nav > a{
-    color:#e8eaed;
+    color:rgb(32, 34, 36);
     text-decoration: none;
 }
 
@@ -20,15 +20,14 @@ a:hover{
     color: gray;
 }
 
-
-
 footer{
-    background-color: #202124;
-    color: #e8eaed;
+    background-color: linear-gradient( rgb(243,227,238), rgb(254,238,249));
+    color: rgb(32, 34, 36);
+    height: 40vh;
     text-align: center;
-    height: 100%;
+   
 }
 
 .title{
-    color: #e8eaed;
+    color: rgb(32, 34, 36);
 }
