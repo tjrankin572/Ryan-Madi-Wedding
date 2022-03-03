@@ -35,7 +35,7 @@ const Hero = ({heroText, heroCitation, heroBig, heroImage}) => (
        
         <div className={heroImage}>
                 <div className="logo">
-                    <Link to="/" className="nav-link">Ryan & Madi</Link>
+                    <Link to="#verse" className="nav-link">Ryan & Madi</Link>
                 </div>
 
             <nav className="hero_nav flex-1"> 
