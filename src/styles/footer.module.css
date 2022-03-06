@@ -22,12 +22,15 @@ a:hover{
 
 footer{
     background-color: linear-gradient( rgb(243,227,238), rgb(254,238,249));
-    height: 40vh;
+    margin: 0 auto;
+    height: 30vh;
+    width: 50vh;
     text-align: center;
     font-size: large;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+   
+    align-items: center;
    
 }
 
@@ -43,8 +46,9 @@ a{
 
 
 .icon{
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
+    object-fit: contain;
     margin: 0 auto;
     display: inline;
   }

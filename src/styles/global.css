@@ -393,10 +393,12 @@ html {
 }
 
 .icon{
-  height: 90px;
-  width: 90px;
+  height: 70px;
+  width: 70px;
+
   margin: 0 auto;
-  display: inline;
+  display: block;
+
 }
 
 .back-to-top{

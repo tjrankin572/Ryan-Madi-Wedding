@@ -30,7 +30,7 @@ const MissionPartner2 = () => (
     <section className="our-story section-alignment" id="our-story">
       <div className="wrapper">
         <h2>Our Story</h2>
-        <StaticImage src="../images/heart.png" className="icon" width={500}/>
+        <StaticImage src="../images/heart_vector.png" className="icon" objectFit="fill" width={500}/>
         <p>We met, he was hot... That's about it.</p>
       </div>
       
@@ -40,7 +40,7 @@ const MissionPartner2 = () => (
 
       <div className="rsvp-wrapper">
         <h2>When & Where</h2>
-        <StaticImage src="../images/map_icon.png" className="icon" width={500}/>
+        <StaticImage src="../images/map_icon_vector.png" objectFit="fill" className="icon" width={500}/>
         <p>Treasure Valley Baptist Church</p>
         <p>1300 S Teare Ave, Meridian, ID 83642</p>
         <p>June 24th, 2022, 6:30 PM MTN</p>
@@ -56,7 +56,7 @@ const MissionPartner2 = () => (
       
       <div className="rsvp-wrapper" >
         <h2>RSVP</h2>
-        <StaticImage src="../images/rsvp.png" className="icon" width={500}/>
+        <StaticImage src="../images/rsvp_vector.png" objectFit="fill" className="icon" width={100}/>
         <br></br>
         <p>We'd love for you to come! Let us know you're coming or watching the livestream.</p>
         <a href="https://forms.gle/A9uZg2vean42WMew8" target="_blank" class="flex-item btn btn-dark bottom-margin-b-20x">Sign Up</a>
@@ -73,7 +73,7 @@ const MissionPartner2 = () => (
       
       <div className="white-wrapper">
         <h2>Registry</h2>
-        <StaticImage src="../images/drawing_3.png" className="icon" width={500}/>
+        <StaticImage src="../images/drawing_vector.png" className="icon" width={500}/>
         <p>Buy Us Things</p>
         <a href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/551170972?eventType=Wedding&fbclid=IwAR1GpSRW3Yaktp3B5Q6vc2-RJUgQx4izSDp57TucRBr1w5h1iBLRIAOpVs8" target="_blank" class="flex-item btn btn-dark bottom-margin-b-20x">Bed Bath & Beyond</a>
       </div>
@@ -83,7 +83,7 @@ const MissionPartner2 = () => (
     <section className="verse-section section-alignment" id="verse">
       <div className="wrapper">
         <h2>Bible Reference</h2>
-        <StaticImage src="../images/bible.png" className="icon" width={500}/>
+        <StaticImage src="../images/cross_vector.png" className="icon" width={100}/>
         <p>The Verse text...hello there</p>
       </div>
     </section>
