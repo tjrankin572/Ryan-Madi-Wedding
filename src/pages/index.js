@@ -31,7 +31,7 @@ const MissionPartner2 = () => (
       <div className="wrapper">
         <h2>Our Story</h2>
         <StaticImage src="../images/heart_vector.png" className="icon" objectFit="fill" width={500}/>
-        <p>We met, he was hot... That's about it.</p>
+        <p>We met, he was hot... That's about it. Also his brother is pretty cool.</p>
       </div>
       
     </section>
