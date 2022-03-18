@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import  "../styles/global.css"
+import "../styles/ryan_madi.css"
 
 import { Link } from "gatsby"
 
