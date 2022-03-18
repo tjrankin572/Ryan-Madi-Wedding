@@ -104,9 +104,9 @@ const MissionPartner2 = () => (
         <br></br>
         <h3>Ryan's Favorite</h3>
         <h3>Philippians 4:6-7</h3>
-        <p>Do not be anxious about anything, but in every situation, by prayer and petition, with thanksgiving, 
-          present your requests to God. And the peace of God, which transcends all understanding, 
-          will guard your hearts and your minds in Christ Jesus.</p>
+        <p>Be careful for nothing; but in every thing by prayer and supplication with thanksgiving 
+          let your requests be made known unto God. And the peace of God, which passeth all understanding, 
+          shall keep your hearts and minds through Christ Jesus.</p>
         <br></br>
         <h3>Madi's Favorite</h3>
         <h3>Luke 1:37</h3>
