@@ -58,7 +58,7 @@
   .our-story-wrapper{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     padding: 20px;
     background-color: rgba(4,76,38, 0.507);
     text-align: center;

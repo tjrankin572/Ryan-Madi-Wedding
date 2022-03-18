@@ -38,7 +38,7 @@ const MissionPartner2 = () => (
           <br></br>
           <p>After a year of knowing each other we officially started dating and then after 8 months of dating, 
           Ryan asked me to marry him on New Years Eve at a nerdy Star Wars party. 
-          It was perfect for us.And now here we are.</p>
+          It was perfect for us. And now here we are.</p>
           <br></br> 
           <p>We hope you will join us for our special day as we start the rest of our lives together!</p>
       </div>
