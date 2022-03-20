@@ -1,0 +1,201 @@
+@media only screen and (max-width: 699px) {
+    .btn{
+    
+        height: 80%;
+        line-height: 0.9rem;
+    }
+    
+    
+    p{
+        font-size: 1em;
+        font-weight: 500;
+    }
+    
+    h2{
+        font-size: 1.8em;
+    }
+    
+    h3{
+        font-size: 0.8em;
+    }
+    
+    .icon-cross{
+        height: 3.5em;
+        width: 3em;
+      
+        margin: 0 auto;
+        display: block;
+      
+      }
+      
+      .icon{
+        height: 3em;
+        width: 3em;
+      
+        margin: 0 auto;
+        display: block;
+      
+      }
+    
+      
+     
+    /* W
+    
+    /* Wrappers */
+    
+    .rsvp-wrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        background-color: rgba(29,93,58, 0.507);
+        text-align: center;
+        color:white;
+        border-radius: 10px;
+        width: 70vh;
+      
+        justify-content: center;
+      
+      }
+    
+      .when-and-where-wrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: rgba(29,93,58, 0.507);
+        text-align: center;
+        color:white;
+        border-radius: 10px;
+        width: 50vh;
+    
+        justify-content: center;
+      
+      }
+    
+    .white-wrapper{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        background-color: rgba(29,93,58, 0.507);
+        text-align: center;
+        color:white;
+        border-radius: 10px;
+        width: 50vw;
+      
+        justify-content: center;
+        
+      }
+      
+      .verse-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        background-color: rgba(4,76,38, 0.507);
+        text-align: center;
+        color:white;
+        border-radius: 10px;
+        width: 60vh;
+    
+      }
+    
+      .our-story-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        background-color: rgba(4,76,38, 0.507);
+        text-align: center;
+        color:white;
+        border-radius: 10px;
+        width: 95vh;
+       
+       
+      }
+    
+      
+      .wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 20px;
+        background-color: rgba(4,76,38, 0.507);
+        text-align: center;
+        color:white;
+        border-radius: 10px;
+        width: 30vh;
+       
+      }
+    
+      
+    
+    /* Section Styles */
+    
+    .hero-location-time{
+      display: flex;
+      background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/sneak_attack.jpg');
+      background-attachment: fixed;
+      flex-direction: column;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 100vh;
+      z-index: 1;
+      padding: 50px;
+      margin-bottom: 50px;
+    
+      text-align: center;
+      justify-content: flex-start;
+      align-items: space-around;
+    }
+    
+    
+    
+    .our-story{
+        background: linear-gradient(rgba(153, 163, 162, 0.50),rgba(153,163,162, 0.30)), url('../images/simp.jpg');
+        height: 110vh;
+        background-size: cover;
+        background-position: center;
+      
+      }
+      
+    .when-and-where{
+        background: linear-gradient(rgba(153, 163, 162, 0.50),rgba(29,93,59, 0.30));
+        height: 100vh;
+        background-size: cover;
+        overflow: auto;
+      
+      }
+      
+    .rsvp{
+        background: linear-gradient(rgba(153, 163, 162, 0.50),rgba(153,163,162, 0.30)), url('../images/modified_fence.png');
+        height: 100vh;
+        background-size: cover;
+       
+        background-position: center;
+     
+       
+      }
+      
+    .registry{
+        background: linear-gradient(rgba(153, 163, 162, 0.50),rgba(153,163,162, 0.30));
+        height: 100vh;
+        
+        background-size: cover;
+        overflow: auto;
+      }
+      
+    .verse-section{
+        background: linear-gradient(rgba(153, 163, 162, 0.50),rgba(153,163,162, 0.30)), url('../images/coffee.jpg');
+        height: 150vh;
+        background-size: cover;
+       
+        background-position: center;
+        overflow: auto;
+      }
+      
+    .SDH_8427{
+        background: linear-gradient(rgba(70, 70, 70, 0.507),rgba(70, 70, 70, 0.507)), url('../images/SDH_8427.jpg');
+      }
+    
+    
+    }  

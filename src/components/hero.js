@@ -1,7 +1,11 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import  "../styles/global.css"
+
 import "../styles/ryan_madi.css"
+import "../styles/ryan_madi_sm_desktop.css"
+import "../styles/ryan_madi_mobile.css"
+
 
 import { Link } from "gatsby"
 
@@ -22,10 +26,10 @@ const Hero = ({heroText, heroCitation, heroBig, heroImage}) => (
                     <br></br>
                     <nav>
                         <ul>
-                            <Link to="/location-time" className="nav-link">Our Story</Link>
-                            <Link to="/location-time" className="nav-link">When and Where</Link>
-                            <Link to="/rsvp-registry" className="nav-link">RSVP</Link>
-                            <Link to="/rsvp-registry" className="nav-link">Registry</Link>
+                            <Link to="#our-story" className="nav-link">Our Story</Link>
+                            <Link to="#when-and-where" className="nav-link">When and Where</Link>
+                            <Link to="#rsvp" className="nav-link">RSVP</Link>
+                            <Link to="#registry" className="nav-link">Registry</Link>
                         </ul>
                     </nav>
                 </div>
@@ -35,9 +39,9 @@ const Hero = ({heroText, heroCitation, heroBig, heroImage}) => (
 
        
         <div className={heroImage}>
-                <div className="logo">
-                    <Link to="#verse" className="nav-link">Ryan & Madi</Link>
-                </div>
+            <div className="main-logo">
+                <Link to="#verse" className="nav-link">Ryan & Madi</Link>
+            </div>
 
             <nav className="hero_nav flex-1"> 
                 <div>

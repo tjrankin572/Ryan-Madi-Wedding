@@ -1,19 +1,13 @@
 /* 
 This stylesheet is meant more for theme specific uses such as quick access to fonts, buttons and alignments.
 Over time, you'll begin to see more of these files spread out to fit more specifc needs.
-
 To Do:
-
 Stylesheet for Mobile Theme
 Styesheet for  Mobile Website
-
 Stylesheet for Headers/Hero
 Stylesheet for Footers
-
 Stylesheet for Desktop Themes
 Stylesheet for Desktop Website
-
-
 */
 
 
@@ -164,28 +158,13 @@ html {
   background-color: black;
   color:white;
   padding-top:150px;
-  height: 60vh;
+  height: 100vh;
  
 }
 
 
 
 
-.hero-location-time{
-    display: flex;
-    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/sneak_attack.jpg');
-    background-attachment: fixed;
-    flex-direction: column;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    z-index: 1;
-    padding: 50px;
-    text-align: center;
-    justify-content: flex-start;
-    align-items: space-around;
-}
 
 
 .hero_text{
@@ -362,14 +341,7 @@ html {
   align-items: center;
 }
 
-.icon{
-  height: 70px;
-  width: 70px;
 
-  margin: 0 auto;
-  display: block;
-
-}
 
 .back-to-top{
   color: black I !important;
@@ -384,6 +356,21 @@ html {
       flex: 1 0 auto;
   }
 
+  .main-logo{
+    display: none;
+    visibility: hidden;
+    text-align: center;
+    flex-direction: row;
+  
+    justify-content: centered;
+  
+    font-size: 35px;
+  
+    
+    text-decoration: none;
+    color: white;
+  }
+
 
  
   @media only screen and (min-width: 780px) {
@@ -395,6 +382,23 @@ html {
 
     }
 
+    
+  .main-logo{
+    display: block;
+    visibility: visible;
+    text-align: center;
+    flex-direction: row;
+  
+    justify-content: centered;
+  
+    font-size: 35px;
+  
+    
+    text-decoration: none;
+    color: aqua;
+  }
+
+ 
     .qr-code{
       width: 15%;
       height: 15%;
@@ -642,10 +646,7 @@ html {
     width:  50%;
   }
   
-  .img-DFM-logo{
-   
-    width: 95%;
-  }
+ 
   .gatsbyMainContainer{
       min-height: 100vh;
       display: flex;
@@ -797,10 +798,6 @@ html {
     }
     
 
-    .img-DFM-logo{
- 
-      width: 60%;
-    }
 
    
     .hamburger{
@@ -815,3 +812,5 @@ html {
       display: none;
     }
   }
+
+  
