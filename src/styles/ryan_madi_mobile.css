@@ -133,7 +133,7 @@
     .hero-location-time{
       display: flex;
       background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url('../images/sneak_attack.jpg');
-      background-attachment: fixed;
+     
       flex-direction: column;
       background-size: cover;
       background-position: center;

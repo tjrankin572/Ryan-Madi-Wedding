@@ -23,7 +23,7 @@ a:hover{
 footer{
     background-color: linear-gradient( rgb(243,227,238), rgb(254,238,249));
     margin: 0 auto;
-    height: 30vh;
+  
     width: 50vh;
     text-align: center;
     font-size: large;
@@ -50,8 +50,8 @@ a{
 
 
 .icon-happy{
-    height: 0.5rem;
-    width: 0.5rem;
+    height: 0.1rem;
+    width: 0.1rem;
     object-fit: fit;
     margin: 0 auto;
     display: block;
@@ -66,8 +66,8 @@ a{
 
 
     .icon{
-        height: 1rem;
-        width: 1rem;
+        height: 0.1rem;
+        width: 0.1rem;
       
         margin: 0 auto;
         display: inline;
@@ -77,5 +77,13 @@ a{
         text-decoration: underline; 
         font-size: 0.8em;
     }
+
+    .icon-happy{
+        height: 0.1rem;
+        width: 0.1rem;
+       
+        margin: 0 auto;
+        display: block;
+      }
     
 }
