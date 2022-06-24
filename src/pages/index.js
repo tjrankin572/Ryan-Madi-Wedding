@@ -57,6 +57,7 @@ const MissionPartner2 = () => (
         <a href="https://goo.gl/maps/CmfE8jdLhPeh4cxq5" target="_blank" class="flex-item btn btn-dark bottom-margin-b-20x btn-font">Google Maps</a>
         <h2>Livestream</h2>
         <a href="https://livestream.com/accounts/26556434/events/10198976?fbclid=IwAR1RzsemSSOZmRUvHecmuuSvL_EurzbntjFjmwFJvTPfRtbFVvvWikviOg0" target="_blank" class="flex-item btn btn-dark bottom-margin-b-20x btn-font">Watch It Happen!</a>
+        <a href="https://www.youtube.com/channel/UCvvrhE7fgbVKKefJJxhd3mg" target="_blank" class="flex-item btn btn-dark bottom-margin-b-20x btn-font">Watch It Happen! (YouTube)</a>
 
       </div>
 
