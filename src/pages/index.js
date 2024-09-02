@@ -76,12 +76,12 @@ const MissionPartner2 = () => (
         <p>Let us know if you run into any issues!</p>
 
         <h3>Ryan Rankin</h3>
-        <p><b>Phone:</b> (208) 484-2688</p> 
-        <p><b>Email:</b> ryanwillrankin@gmail.com</p>  
+        <p><b>Phone:</b> (555) 555-5555</p> 
+        <p><b>Email:</b> example@gmail.com</p>  
       
         <h3>Madison Barno</h3>
-        <p><b>Phone:</b> (775) 530-2292 </p>
-        <p><b>Email:</b> madison.barno@gmail.com</p>  
+        <p><b>Phone:</b> (555) 555-5555</p>
+        <p><b>Email:</b> example@gmail.com</p>  
           
 
       </div>
